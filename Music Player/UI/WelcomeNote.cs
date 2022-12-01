@@ -1,4 +1,5 @@
-﻿using Music_Player.Songs;
+﻿using Music_Player.Playlists;
+using Music_Player.Songs;
 using Music_Player.Utility;
 using System;
 
@@ -38,6 +39,7 @@ namespace Music_Player.UI
                         loading.Loading();
                         Console.Clear();
                         Console.WriteLine("\t\t************* MY Playlists *************");
+                        
                     }
                     else if(selected == 3)
                     {
