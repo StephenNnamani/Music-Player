@@ -43,7 +43,10 @@ namespace Music_Player.UI
                     }
                     else if(selected == 3)
                     {
-
+                        loading.Loading();
+                        Console.Clear();
+                        Console.WriteLine("\t\t************* ADD NEW SONG *************");
+                        AddNewSong.NewSong();
                     }
                     else if(selected == 4)
                     {

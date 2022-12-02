@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Music_Player.Songs
 {
-    internal class AddNewSong
+    internal static class AddNewSong
     {
         public static List<SongModel> TotalSongs = SongList.SongFact();
         public static List<SongModel> NewSong()
